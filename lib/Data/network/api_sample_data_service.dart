@@ -3,7 +3,7 @@ import 'package:basic_architecture/Data/responses/sample_data_response.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 
-part 'api_sanple_data_service.g.dart';
+part 'api_sample_data_service.g.dart';
 
 @RestApi()
 abstract class ApiSampleDataService {

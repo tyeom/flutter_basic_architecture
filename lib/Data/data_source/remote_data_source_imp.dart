@@ -1,5 +1,5 @@
 import 'package:basic_architecture/Data/data_source/remote_data_source.dart';
-import 'package:basic_architecture/Data/network/api_sanple_data_service.dart';
+import 'package:basic_architecture/Data/network/api_sample_data_service.dart';
 import 'package:basic_architecture/Data/network/api_service.dart';
 import 'package:basic_architecture/Data/responses/authentication_response.dart';
 import 'package:basic_architecture/Data/responses/member_response.dart';
