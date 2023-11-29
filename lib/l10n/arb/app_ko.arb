@@ -1,0 +1,11 @@
+{
+    "login": "로그인",
+    "noRouteFound": "찾을 수 없는 페이지",
+    "forgotPassword": "패스워드 찾기",
+    "subscriptionKeyInfo": "구독키 정보",
+    "subscriptionKey": "구독 키",
+    "subscriptionType": "구독 타입",
+    "subscriptionStartDT": "구독 시작일",
+    "subscriptionEndDT": "구독 종료일",
+    "subscriptionMemo": "메모"
+}

@@ -1,0 +1,11 @@
+{
+    "login": "Login",
+    "noRouteFound": "page not found",
+    "forgotPassword": "Forgot Password",
+    "subscriptionKeyInfo": "Subscription key info",
+    "subscriptionKey": "Subscription Key",
+    "subscriptionType": "Subscription Type",
+    "subscriptionStartDT": "Subscription start date",
+    "subscriptionEndDT": "Subscription end date",
+    "subscriptionMemo": "Memo"
+}
