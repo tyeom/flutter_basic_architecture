@@ -4,6 +4,11 @@
 
 - blog post : [Flutter - Clean Architecture 적용해보기](https://blog.arong.info/flutter/2023/11/29/Flutter-Clean-Architecture-%EC%A0%81%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0.html)
 
+Project Architecture
+-
+![플러터_클린아키텍처_구조](https://github.com/tyeom/flutter_basic_architecture/assets/13028129/97b2e130-733a-43b0-8317-cf1dfd24d319)
+
+
 Project solution structure
 -
 
@@ -107,6 +112,8 @@ Project solution structure
 ***
 
 ### how to use tha app?
+![Clean_Architecture_Flutter](https://github.com/tyeom/flutter_basic_architecture/assets/13028129/57450296-226d-48d6-bb61-b96dd614dfd9)
+
 ## for *login* use the following data
 ```
 {
