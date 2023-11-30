@@ -4,7 +4,7 @@ import 'package:basic_architecture/Presentation/routes_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:formz/formz.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart'; 
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class LoginView extends StatefulWidget {
   const LoginView({super.key});
@@ -23,7 +23,7 @@ class _LoginViewState extends State<LoginView> {
             Padding(
               padding: const EdgeInsets.only(top: 60.0),
               child: Center(
-                child: Container(
+                child: SizedBox(
                     width: 300,
                     height: 150,
                     child: Image.asset('assets/images/flutter-logo.png')),
@@ -57,7 +57,7 @@ class _LoginViewState extends State<LoginView> {
                     return TextField(
                       obscureText: true,
                       decoration: InputDecoration(
-                          border: OutlineInputBorder(),
+                          border: const OutlineInputBorder(),
                           labelText: 'Password',
                           hintText: 'Enter secure password',
                           errorText: state.password.displayError),
@@ -68,11 +68,11 @@ class _LoginViewState extends State<LoginView> {
             ),
             TextButton(
               onPressed: () {
-                // TODO FORGOT PASSWORD SCREEN GOES HERE
+                // TODO : FORGOT PASSWORD SCREEN GOES HERE
               },
               child: Text(
                 AppLocalizations.of(context)!.forgotPassword,
-                style: TextStyle(color: Colors.blue, fontSize: 15),
+                style: const TextStyle(color: Colors.blue, fontSize: 15),
               ),
             ),
             Container(
@@ -93,8 +93,8 @@ class _LoginViewState extends State<LoginView> {
                           ? const CircularProgressIndicator()
                           : Text(
                               AppLocalizations.of(context)!.login,
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 25),
+                              style: const TextStyle(
+                                  color: Colors.white, fontSize: 25),
                             ),
                     );
                   },
@@ -109,8 +109,8 @@ class _LoginViewState extends State<LoginView> {
                         ..showSnackBar(
                           SnackBar(
                               content: Text(state.errorMessage ?? ''),
-                              duration: Duration(
-                                milliseconds: 1000,
+                              duration: const Duration(
+                                milliseconds: 2500,
                               )),
                         );
                     }

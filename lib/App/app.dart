@@ -21,7 +21,8 @@ class MyApp extends StatelessWidget {
             ),
           ],
           child: MaterialApp(
-            title: 'Flutter Basic Architecture',
+            title: 'Clean Architecture in Flutter Demo App',
+            debugShowCheckedModeBanner: false,
             theme: ThemeData(
               primarySwatch: Colors.blue,
             ),
