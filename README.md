@@ -18,7 +18,7 @@ Project solution structure
 
 ├─**App** - App initial settings<br/>
 ├─**Data**<br/>
-│  ├─**data_source** - API requestbr/>
+│  ├─**data_source** - API request<br/>
 │  ├─**network** - http request module<br/>
 │  ├─**repository** - Implementation of actual data request processing<br/>
 │  ├─**responses** - data entity<br/>
