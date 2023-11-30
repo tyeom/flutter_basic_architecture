@@ -1,4 +1,4 @@
-# Flutter's basic clean architecture demo app
+# Flutter basic clean architecture demo app
 
 ### This project is based on Flutter and implements and explains simple functions aimed at basic Clean Architecture design.
 ### 이 프로젝트는 Flutter 기반으로 기본적인 Clean Architecture 설계를 목표로한 간단한 기능이 구현 되어 있고, 설명 하고 있습니다.
