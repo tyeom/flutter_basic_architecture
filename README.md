@@ -9,6 +9,9 @@ Project Architecture
 -
 ![플러터_클린아키텍처_구조](https://github.com/tyeom/flutter_basic_architecture/assets/13028129/97b2e130-733a-43b0-8317-cf1dfd24d319)
 
+> **※ Incorrect orientation of the 'Import to' arrow in the architectural diagram.**<br/>
+> [Presentaion Module] 에서 ~Bloc -> [Domain Module] Use Case~ → [Domain Module] Use Case -> [Presentaion Module] Bloc <br/>
+> [Data Module] 에서 ~Translator -> [Domain Module] Model~ → [Momain Module] Model -> [Data Module] Translator <br/>
 
 Project solution structure
 -
